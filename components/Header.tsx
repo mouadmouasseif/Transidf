@@ -10,7 +10,7 @@ export default function Header() {
 
   const links = [
     { name: "Home", href: "/" },
-    { name: "About", href: "/About" },
+    { name: "About", href: "/about" },
     { name: "Float", href: "/float" },
     { name: "Service", href: "/Service" },
     { name: "Contact", href: "/Contact" },
