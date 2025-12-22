@@ -36,7 +36,7 @@ export default function WhatsappChat() {
     <div className="fixed bottom-4 right-4 z-[1000]">
       {/* === Fenêtre ouverte === */}
       {open && (
-        <div className="bg-gray-800/70 text-orange-400 rounded-2xl shadow-2xl p-4 w-[90vw] max-w-[340px] sm:w-80 relative border border-gray-200 animate-fadeIn">
+        <div className="bg-gray-800 text-orange-400 rounded-2xl shadow-2xl p-4 w-[90vw] max-w-[340px] sm:w-80 relative border border-gray-200 animate-fadeIn">
           {/* Bouton de fermeture */}
           <button
             onClick={() => setOpen(false)}
