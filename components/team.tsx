@@ -197,8 +197,10 @@ export default function ContactCards() {
                   <MapPin className="w-10 h-10 text-orange-400 mb-3" />
                   <h4 className="text-lg font-semibold text-orange-400 mb-2">Adresse France</h4>
                   <p className="text-sm text-gray-400">
-                  .....<br />
-                    ......<br />
+                1 Place de l'Europe, 
+
+<br />77610 Fontenay-Trésigny
+                    <br />
                    
                   </p>
                 </div>
