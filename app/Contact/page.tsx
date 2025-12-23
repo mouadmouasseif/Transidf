@@ -26,24 +26,7 @@ export default function ContactCards() {
             text: "Qhaicha.mounir@transidf.com",
             href: "mailto:Qhaicha.mounir@transidf.com",
           },
-          { text: "France :" },
-          {
-            icon: <Phone className="inline w-5 h-5 mr-2 text-orange-400" />,
-            text: "Tel : +33 1 71 30 21 24",
-          },
-          {
-            icon: <Phone className="inline w-5 h-5 mr-2 text-orange-400" />,
-            text: "Mob : +33 6 84 45 05 37",
-          },
-          { text: "Maroc :" },
-          {
-            icon: <Phone className="inline w-5 h-5 mr-2 text-orange-400" />,
-            text: "Tel : +212 537 86 65 13",
-          },
-          {
-            icon: <Phone className="inline w-5 h-5 mr-2 text-orange-400" />,
-            text: "Mob : +212 612 00 81 91",
-          },
+
         ],
       },
       {
@@ -56,24 +39,6 @@ export default function ContactCards() {
             icon: <Mail className="inline w-5 h-5 mr-2 text-orange-400" />,
             text: "exploitation@transidf.com",
             href: "mailto:exploitation@transidf.com",
-          },
-          { text: "France :" },
-          {
-            icon: <Phone className="inline w-5 h-5 mr-2 text-orange-400" />,
-            text: "Tel : +33 1 56 32 45 84",
-          },
-          {
-            icon: <Phone className="inline w-5 h-5 mr-2 text-orange-400" />,
-            text: "Mob : +33 6 20 60 73 60",
-          },
-          { text: "Maroc :" },
-          {
-            icon: <Phone className="inline w-5 h-5 mr-2 text-orange-400" />,
-            text: "Tel : +212 537 86 65 13",
-          },
-          {
-            icon: <Phone className="inline w-5 h-5 mr-2 text-orange-400" />,
-            text: "Mob : +212 669 47 68 78",
           },
         ],
       },
@@ -88,11 +53,6 @@ export default function ContactCards() {
             text: "rh@transidf.com",
             href: "mailto:rh@transidf.com",
           },
-          { text: "France :" },
-          {
-            icon: <Phone className="inline w-5 h-5 mr-2 text-orange-400" />,
-            text: "Tel : +33 1 71 30 21 24",
-          },
         ],
       },
       {
@@ -105,24 +65,7 @@ export default function ContactCards() {
             text: "compta@transidf.com",
             href: "mailto:compta@transidf.com",
           },
-          { text: "France :" },
-          {
-            icon: <Phone className="inline w-5 h-5 mr-2 text-orange-400" />,
-            text: "Tel : +33 1 56 32 45 84",
-          },
-          {
-            icon: <Phone className="inline w-5 h-5 mr-2 text-orange-400" />,
-            text: "Mob : +33 6 20 60 73 60",
-          },
-          { text: "Maroc :" },
-          {
-            icon: <Phone className="inline w-5 h-5 mr-2 text-orange-400" />,
-            text: "Tel : +212 537 86 65 13",
-          },
-          {
-            icon: <Phone className="inline w-5 h-5 mr-2 text-orange-400" />,
-            text: "Mob : +212 669 47 68 78",
-          },
+         
         ],
       },
     ];
@@ -259,8 +202,8 @@ export default function ContactCards() {
             <MapPin className="w-10 h-10 text-orange-400 mb-3" />
             <h4 className="text-lg font-semibold text-orange-400 mb-2">Adresse France</h4>
             <p className="text-sm text-gray-400">
-            10 Allée de la connaissance<br />
-              77127 LIEUSAINT<br />
+           ......<br />
+             ......<br />
              
             </p>
           </div>

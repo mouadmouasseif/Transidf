@@ -97,7 +97,7 @@ export default function AboutPage() {
                 </p>
               <p>
                 <Phone className="inline w-5 h-5 mr-2 text-orange-400" />
-                <strong className="text-orange-400">France :</strong> +33 1 56 32 45 84/ +33 6 20 60 73 60
+                <strong className="text-orange-400">France :</strong> +33 9 79 3870 20/ +33 6 20 60 73 60
               </p>
               <p>
                 <Phone className="inline w-5 h-5 mr-2 text-orange-400" />
@@ -141,24 +141,9 @@ export default function AboutPage() {
             text: "Qhaicha.mounir@transidf.com",
             href: "mailto:Qhaicha.mounir@transidf.com",
           },
-          { text: "France :" },
-          {
-            icon: <Phone className="inline w-5 h-5 mr-2 text-orange-400" />,
-            text: "Tel : +33 1 71 30 21 24",
-          },
-          {
-            icon: <Phone className="inline w-5 h-5 mr-2 text-orange-400" />,
-            text: "Mob : +33 6 84 45 05 37",
-          },
-          { text: "Maroc :" },
-          {
-            icon: <Phone className="inline w-5 h-5 mr-2 text-orange-400" />,
-            text: "Tel : +212 537 86 65 13",
-          },
-          {
-            icon: <Phone className="inline w-5 h-5 mr-2 text-orange-400" />,
-            text: "Mob : +212 612 00 81 91",
-          },
+          
+          
+         
         ],
       },
       {
@@ -172,24 +157,8 @@ export default function AboutPage() {
             text: "exploitation@transidf.com",
             href: "mailto:exploitation@transidf.com",
           },
-          { text: "France :" },
-          {
-            icon: <Phone className="inline w-5 h-5 mr-2 text-orange-400" />,
-            text: "Tel : +33 1 56 32 45 84",
-          },
-          {
-            icon: <Phone className="inline w-5 h-5 mr-2 text-orange-400" />,
-            text: "Mob : +33 6 20 60 73 60",
-          },
-          { text: "Maroc :" },
-          {
-            icon: <Phone className="inline w-5 h-5 mr-2 text-orange-400" />,
-            text: "Tel : +212 537 86 65 13",
-          },
-          {
-            icon: <Phone className="inline w-5 h-5 mr-2 text-orange-400" />,
-            text: "Mob : +212 669 47 68 78",
-          },
+         
+         
         ],
       },
       {
@@ -203,12 +172,7 @@ export default function AboutPage() {
             text: "rh@transidf.com",
             href: "mailto:rh@transidf.com",
           },
-          { text: "France :" },
-          {
-            icon: <Phone className="inline w-5 h-5 mr-2 text-orange-400" />,
-            text: "Tel : +33 1 71 30 21 24",
-          },
-        ],
+         ],
       },
       {
         title: "Comptabilité",

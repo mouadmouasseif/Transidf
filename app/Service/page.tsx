@@ -158,16 +158,16 @@ export default function ServicePage() {
         <div className="grid md:grid-cols-2 gap-8 text-lg text-gray-300">
           <div>
             <h3 className="font-semibold text-orange-400">France</h3>
-            <p>10 Allée de la connaissance, 77127 LIEUSAINT</p>
-            <p>Mob : +33 620 60 73 60</p>
-            <p>Tél : +33 171 30 21 24</p>
+            <p>1 Place de l'Europe, 77610 Fontenay-Trésigny</p>
+            <p>Mob : +33 9 79 38 70 20</p>
+         
           </div>
 
           <div>
             <h3 className="font-semibold text-orange-400">Maroc</h3>
             <p>Rue Dakar IMM N°5 APP 1, Océan, Rabat - Maroc</p>
-            <p>Tél : +212 608 51 48 45</p>
-            <p>Tél : +212 635 51 08 74</p>
+            <p>Tél : +212 5 37 86 65 13</p>
+ 
           </div>
         </div>
 

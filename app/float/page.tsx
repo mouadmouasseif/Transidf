@@ -59,22 +59,7 @@ export default function NotreFlotte() {
             et désinfectés selon les protocoles en vigueur.
           </p>
 
-          <div className="bg-white/10 rounded-xl p-5 border border-gray-700 shadow-lg">
-            <h3 className="text-orange-400 font-semibold mb-3">
-              Informations importantes :
-            </h3>
-            <ul className="list-disc list-inside text-gray-200 space-y-2">
-              <li>Chargement de 33 palettes maximum par poids lourd.</li>
-              <li>
-                Les affrètements de plus de 3T5 sont soumis à des restrictions
-                du samedi matin au dimanche soir 22h.
-              </li>
-              <li>
-                Ces restrictions ne s’appliquent pas aux transports de denrées
-                périssables.
-              </li>
-            </ul>
-          </div>
+          
         </motion.div>
       </div>
 
@@ -96,12 +81,12 @@ export default function NotreFlotte() {
           {
             country: "France",
             address: "10 Allée de la Connaissance, 77127 LIEUSAINT",
-            phones: ["+33 171 30 21 24", "+33 620 60 73 60", "+33 979 38 70 20"],
+            phones: ["+33 9 79 3870 20"],
           },
           {
             country: "Maroc",
             address: "Rue Dakar IMM N5 APP 1, Océan, Rabat",
-            phones: ["+212 808 51 48 45", "+212 635 51 08 74"],
+            phones: ["+212 5 37 86 65 13"],
           },
         ].map((office, i) => (
           <motion.div key={i} whileHover={{ scale: 1.02 }} transition={{ duration: 0.3 }}>

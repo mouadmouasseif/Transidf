@@ -8,26 +8,14 @@ export default function WhatsappChat() {
 
   // === Liste des contacts WhatsApp ===
   const contacts = [
-    {
-      title: "Président (Urgence)",
-      fr: "+33 6 84 45 05 37",
-      ma: "+212 612 00 81 91",
-    },
+  
     {
       title: "Exploitation",
-      fr: "+33 6 20 60 73 60",
-      ma: "+212 669 47 68 78",
+      mail: "exploitation@transidf",
+      
     },
-    {
-      title: "Comptabilité",
-      fr: "+33 6 20 60 73 60",
-      ma: "+212 669 47 68 78",
-    },
-    {
-      title: "Ressources humaines",
-      fr: "+33 1 71 30 21 24",
-      ma: null,
-    },
+   
+   
   ];
 
   // === Fonction pour générer lien WhatsApp ===
@@ -65,34 +53,21 @@ export default function WhatsappChat() {
                 <p className="text-sm font-medium text-gray-100  mb-1">{contact.title}</p>
 
                 {/* France */}
-                {contact.fr && (
+                {contact.mail && (
                   <a
-                    href={makeLink(contact.fr)}
+                    href={makeLink(contact.mail)}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center justify-between text-sm text-orange-700 hover:text-orange-800"
                   >
                     <span className="flex items-center gap-2">
-                      <Phone size={14} /> {contact.fr}
+                      <Phone size={14} /> {contact.mail}
                     </span>
                     <ChevronRight size={16} />
                   </a>
                 )}
 
-                {/* Maroc */}
-                {contact.ma && (
-                  <a
-                    href={makeLink(contact.ma)}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center justify-between text-sm text-orange-700 hover:text-orange-800 mt-1"
-                  >
-                    <span className="flex items-center gap-2">
-                      <Phone size={14} /> {contact.ma}
-                    </span>
-                    <ChevronRight size={16} />
-                  </a>
-                )}
+               
               </div>
             ))}
           </div>
