@@ -15,16 +15,7 @@ export default function WhatsappChat() {
       
 
     },
-    {
-      title: "Comptabilité",
-      mail: "compta@transidf.com",
-      
-    },
-    {
-      title: "Ressources humaines",
-      mail: "rh@transidf.com",
-      
-    },
+    
    
    
   ];
