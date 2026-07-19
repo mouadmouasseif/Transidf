@@ -75,7 +75,7 @@ export default function WhatsappChat() {
           </div>
 
           <p className="text-[10px] text-center mt-4 text-gray-500">
-            ⚡ Developpe par <strong>Made for Web</strong>
+            ⚡ Developpe par <strong>Mouad Mouasseif</strong>
           </p>
         </div>
       )}
