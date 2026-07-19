@@ -39,7 +39,7 @@ export default function Footer() {
           >
             <Image
               src="/image/logo_v1.png"
-              alt="Made For Web"
+              alt="Mouad Mouasseif"
               width={28}
               height={28}
               className="rounded object-contain"
